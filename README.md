@@ -25,13 +25,6 @@
 - Python 2.7
 - Flask
 - Redis
-- Nginx
-
-
-### - Web Server
-
->- Serviço Http (nginx) em http://localhost:8080
-
 
 <br>
 
@@ -42,27 +35,12 @@
 
 <br>
 
-## Instalação
-
-```sh
-git clone https://github.com/eulerazevedo/docker_nginx_python_server
-```
-
 ## ⚠️ Como executar
-Após fazer o clone, acesse a pasta do projeto `/docker_nginx_python_server`:
+Após fazer o clone, acesse a pasta do projeto `/docker_nginx_python_server` e execute o seguinte comando:
 
 ```
 docker-compose up
 
-```
-
-## Execução do script .sh
-
-Na pasta do projeto, abra um terminal e execute o .sh
-
-```sh
-chmod +rwx execute.sh
-.\execute.sh
 ```
 
 <br>
