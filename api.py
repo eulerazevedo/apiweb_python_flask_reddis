@@ -7,7 +7,7 @@ redis = Redis(host='redis', port=6379)
 redis.set('name', 'Hello World')
 
 @app.route('/project')
-def inoa_endpoint():
+def project_endpoint():
     return redis.get('name')
 
 if __name__ == "__main__":
